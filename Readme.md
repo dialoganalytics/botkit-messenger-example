@@ -22,7 +22,7 @@ DIALOG_API_TOKEN=...
 DIALOG_BOT_ID=...
 ```
 
-__Local development:__ When developping locally, use a service like ngrok.com to expose a server running on your machine.
+__Local development:__ When developping locally, use a service like https://ngrok.com to expose a server running on your machine.
 
 ```bash
 $ ngrok http 3000
