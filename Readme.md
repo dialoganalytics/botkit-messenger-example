@@ -11,7 +11,7 @@ Clone this repository and run `npm install`
 
 Create an account on https://app.dialoganalytics.com, grab your Dialog API token and bot ID.
 
-Follow these instructions to get started with a Messenger bot https://github.com/howdyai/botkit/blob/master/readme-facebook.md#getting-started
+Follow [these instructions](https://github.com/howdyai/botkit/blob/master/readme-facebook.md#getting-started) to get started with a Messenger bot.
 
 Set environment variables in `.env`:
 
@@ -21,9 +21,6 @@ FACEBOOK_VERIFY_TOKEN=...
 DIALOG_API_TOKEN=...
 DIALOG_BOT_ID=...
 ```
-
-
-Gt your Facebook Messenger tokens at https://developers.facebook.com. Configure your application's webhook settings in the Facebook developer dashboard to the endpoint on which this server will be listening.
 
 __Local development:__ When developping locally, use a service like ngrok.com to expose a server running on your machine.
 
