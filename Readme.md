@@ -1,6 +1,6 @@
 # Facebook Messenger Botkit Chatbot
 
-An example [Facebook Messenger](https://....com) node.js chatbot and integrated with [Dialog Analytics](https://dialoganalytics.com). Built with [botkit](https://github.com/botkit).
+An example [Facebook Messenger](https://messenger.com) node.js chatbot and integrated with [Dialog Analytics](https://dialoganalytics.com). Built with [howdyai/botkit](https://github.com/howdyai/botkit).
 
 - [Dialog Documention](https://docs.dialoganalytics.com)
 - [Dialog API reference](https://docs.dialoganalytics.com/reference)
