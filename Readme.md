@@ -22,7 +22,7 @@ DIALOG_API_TOKEN=...
 DIALOG_BOT_ID=...
 ```
 
-__Local development:__ When developping locally, use a service like https://ngrok.com to expose a server running on your machine.
+__Local development:__ When developping locally, use a service like https://ngrok.com to expose a server running on your machine. You'll need to update your [Facebook app's webhook](https://developers.facebook.com/apps) and set it to something like `https://075301e2.ngrok.io/facebook/receive`.
 
 ```bash
 $ ngrok http 3000
@@ -31,7 +31,7 @@ $ ngrok http 3000
 Start the bot:
 
 ```bash
-$ node bot.js https://somesubdomain.ngrok.io
+$ node bot.js https://075301e2.ngrok.io
 ```
 
 Open the Messenger application, find your bot and exchange a few messages. Messages will be sent to Dialog's API.
